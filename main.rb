@@ -26,8 +26,13 @@ class Main
   end
 end
 
+NUMBER_OF_PLAYERS = 2
+
 main = Main.new
 main.start
+
+game = Math_game.new(NUMBER_OF_PLAYERS)
+game.start
 
 binding.pry
 end

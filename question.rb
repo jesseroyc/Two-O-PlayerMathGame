@@ -1,21 +1,24 @@
 class Question
 
-  def initialize(new_number_one, new_operator, new_number_two, new_answer)
-    @number_one = new_number_one
-    @operator   = new_operator
-    @number_two = new_number_two
-    @answer     = new_answer
+  attr_accessor :num
+
+  def initialize()
+    @num = 3
   end
 
-  attr_accessor 
-
-
-  def ask ()
+  
+  def db_helper
 
   end
 
 
-  def check ()
+  def ask
 
+  end
+
+
+  def check
+    @num = @num - 1
+    true
   end
 end
