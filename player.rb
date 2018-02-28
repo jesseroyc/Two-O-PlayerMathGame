@@ -1,4 +1,4 @@
-class Math_game
+class Player
   
   def initialize(new_name)
     @name = new_name
@@ -8,22 +8,12 @@ class Math_game
   attr_accessor
 
 
-  def game_start()
+  def loose_life ()
 
   end
 
 
-  def take_life()
-
-  end
-
-
-  def score()
-
-  end
-
-
-  def winner()
+  def correct ()
 
   end
 end
